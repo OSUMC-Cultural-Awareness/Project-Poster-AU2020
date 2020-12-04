@@ -2,8 +2,8 @@ title: Project Poster
 email: addisonfreeman91@gmail.com
 description: 'This website is serving as a project poster for the team that worked on this during the Autumn 2020 semester'
 logo: "https://digitallearning.eletsonline.com/wp-content/uploads/2016/02/Ohio-State-University.jpg"
-baseurl: ""
-url: ""
+baseurl: "https://osumc-cultural-awareness.github.io/Project-Poster-AU2020/"
+url: "https://osumc-cultural-awareness.github.io/Project-Poster-AU2020/"
 remote_theme: daviddarnes/alembic
 permalink: pretty
 
