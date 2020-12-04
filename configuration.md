@@ -1,10 +1,7 @@
 ---
 layout: page
 title: Configuration
-permalink: /configuration/
 ---
-
-# Development Environment
 
 ## Prerequisites
 

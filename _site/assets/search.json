@@ -1,0 +1,33 @@
+
+
+[
+  
+  
+    
+    
+  
+  
+  
+  {
+    "title": "About The Project",
+    "excerpt": "\n",
+    "content": "\n\nAbout the project\n\nThe following contributors created and devleped the api and app services as their capstone project during the 2020 Autumn semester.\n\nContributers\n\n\n  Nick Hackman : @NickHackman\n  Addison Freeman : @freeman91\n  Adam Claus : @claus44\n  Nick Lamanna : @nlamanna18\n\n\nPurpose\n\nThe purpose of these services is to provide health care workers an application that contains a repository of curated information related to specific culture groups in order to help them better serve their patients.\n\n",
+    "url": "/about/"
+  },
+  
+  {
+    "title": "Configuration",
+    "excerpt": "\n",
+    "content": "Prerequisites\n\n\n  Docker\n  python 3.8\n  node\n  expo-cli\n  mongo(optional)\n\n",
+    "url": "/configuration/"
+  },
+  
+  {
+    "title": "Capstone Project Webpage",
+    "excerpt": "\n",
+    "content": "\n",
+    "url": "/"
+  }
+  
+]
+

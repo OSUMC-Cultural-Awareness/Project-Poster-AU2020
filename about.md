@@ -1,8 +1,9 @@
 ---
 layout: page
 title: About The Project
-permalink: /about/
 ---
+
+![Screen Shot](../assets/home.png)
 
 # About the project
 
