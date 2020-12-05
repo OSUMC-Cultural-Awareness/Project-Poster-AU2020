@@ -1,0 +1,4 @@
+---
+permalink: /demo/
+title: "Demo"
+---

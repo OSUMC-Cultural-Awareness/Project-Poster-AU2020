@@ -1,5 +1,13 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Workbook"
-    url: /workbook/
+  - title: "Analysis"
+    url: /analysis/
+  - title: "Architecture"
+    url: /architecture/
+  - title: "Features"
+    url: /features/
+  - title: "Demo"
+    url: /demo/
+  - title: "Road Map"
+    url: /road-map/

@@ -1,0 +1,4 @@
+---
+permalink: /analysis/
+title: "Analysis"
+---
