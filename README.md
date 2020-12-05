@@ -15,4 +15,6 @@ bundle exec jekyll serve
 
 Browse http://localhost:4000
 
-Add/Edit markdown files in the root of the project and they will show up in the side menu bar.
+To add new pages:
+- add .md file to _pages folder
+- add title, url to _data/navigation.yml

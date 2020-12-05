@@ -1,5 +1,5 @@
 main:
-  - title: "Configuration"
-    url: /config/
   - title: "About"
     url: /about/
+  - title: "Workbook"
+    url: /workbook/

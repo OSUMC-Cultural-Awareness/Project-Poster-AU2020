@@ -1,9 +1,13 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: single
-author_profile: false
+layout: splash
+permalink: /
+hidden: true
+header:
+  overlay_color: "#5e616c"
+  overlay_image: http://mediad.publicbroadcasting.net/p/wosu2/files/styles/x_large/public/201809/ohio_state_oval_campus.jpg
+title: OSUMC Cultural Awareness Application
+excerpt: >
+    <p style="text-shadow: 2px 2px black" >Computer Science and Engineering, Software Engineering Capstone project<p>
 ---
 
-![Banner](http://mediad.publicbroadcasting.net/p/wosu2/files/styles/x_large/public/201809/ohio_state_oval_campus.jpg)
+
