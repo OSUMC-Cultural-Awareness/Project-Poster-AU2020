@@ -1,11 +1,7 @@
 ---
-layout: page
-title: About The Project
+permalink: /about/
+title: "About"
 ---
-
-![Screen Shot](../assets/home.png)
-
-# About the project
 
 The following contributors created and devleped the api and app services as their capstone project during the 2020 Autumn semester.
 

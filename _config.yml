@@ -1,38 +1,43 @@
-title: Project Poster
-email: addisonfreeman91@gmail.com
-description: 'This website is serving as a project poster for the team that worked on this during the Autumn 2020 semester'
-logo: "https://digitallearning.eletsonline.com/wp-content/uploads/2016/02/Ohio-State-University.jpg"
-baseurl: "https://osumc-cultural-awareness.github.io/Project-Poster-AU2020/"
-url: "https://osumc-cultural-awareness.github.io/Project-Poster-AU2020/"
-remote_theme: daviddarnes/alembic
-permalink: pretty
 
-# File excludes
-exclude:
-- README.md
-- Gemfile
-- Gemfile.lock
+title: Project Poster
+email:
+description: >- 
+  This website is serving as a project poster for the team 
+  that worked on this during the Autumn 2020 semester
+# logo: https://library.kissclipart.com/20181218/ow/kissclipart-ohio-state-sign-clipart-ohio-state-university-ohio-1539583922cc1c54.png
+
 
 # Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: dark
+
+include:
+  - _pages
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Plugins (previously gems:)
 plugins:
-- jekyll-sitemap
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-default-layout
-- jemoji
-- jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
-# Header nav
-heading_anchors: true
-navigation_header:
-- title: Home
-  url: /
-- title: About
-  url: /about/
-- title: Config
-  url: /configuration/
 
-# Footer nav
-navigation_footer:
-- title: Back to top
-  url: "#top"
+defaults:
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
