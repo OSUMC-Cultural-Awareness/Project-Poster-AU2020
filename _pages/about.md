@@ -37,5 +37,5 @@ The following packages need to be installed on the dev machine:
 
 ### Interactions
 - Github Pages is serving the frontend React Native Application (web version) to users' devices at [https://osumc-cultural-awareness.github.io/app/](https://osumc-cultural-awareness.github.io/app/).  
-- The React Native App then makes API calls to the API server at [https://www.osumc-cultural-awareness.com/](https://www.osumc-cultural-awareness.com/) that sits on an EC2 instance.  
+- The React Native App then makes API calls to the API server at [https://www.osumc-cultural-awareness.com/](https://www.osumc-cultural-awareness.com/health) that sits on an EC2 instance.  
 - The API server connects to and manages data on a MongoAtlas cloud cluster.
