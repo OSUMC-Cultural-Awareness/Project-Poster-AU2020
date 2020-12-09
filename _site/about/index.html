@@ -197,11 +197,23 @@
   <li><a href="https://docs.docker.com/get-docker/">Docker</a></li>
   <li><a href="https://www.python.org/downloads/">python 3.8</a></li>
   <li><a href="https://nodejs.org/en/download/">node</a></li>
+  <li><a href="https://docs.expo.io/get-started/installation/">expo-cli</a></li>
   <li>
-    <p><a href="https://docs.expo.io/get-started/installation/">expo-cli</a></p>
+    <p><a href="https://docs.mongodb.com/guides/server/install/">mongodb</a>  (optional)</p>
   </li>
   <li><a href="https://github.com/OSUMC-Cultural-Awareness/api#getting-started">Instructions</a> for setting up api service</li>
   <li><a href="https://github.com/OSUMC-Cultural-Awareness/app#getting-started">Instructions</a> for setting up app service</li>
+</ul>
+
+<h2 id="production-environment">Production Environment</h2>
+
+<p><img src="../assets/ArchitectureDiagram.png" alt="Architecture Diagram" /></p>
+
+<h3 id="interactions">Interactions</h3>
+<ul>
+  <li>Github Pages is serving the frontend React Native Application (web version) to users’ devices at <a href="https://osumc-cultural-awareness.github.io/app/">https://osumc-cultural-awareness.github.io/app/</a>.</li>
+  <li>The React Native App then makes API calls to the API server at <a href="https://www.osumc-cultural-awareness.com/">https://www.osumc-cultural-awareness.com/</a> that sits on an EC2 instance.</li>
+  <li>The API server connects to and manages data on a MongoAtlas cloud cluster.</li>
 </ul>
 
         
