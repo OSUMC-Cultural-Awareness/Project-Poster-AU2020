@@ -174,11 +174,73 @@
 
       <section class="page__content" itemprop="text">
         
-        <ul>
-  <li>background</li>
-  <li>describe problem</li>
-  <li>propose solution</li>
-  <li>requirements</li>
+        <h2 id="background">Background</h2>
+
+<p>The Ohio State University Medical Center is part of the Ohio State Health Network, a major health network throughout the state, including 16 health centers. OSUMC provides a wide variety of healthcare services and is a major source of healthcare for many Ohio residents.<br />
+<br />
+Healthcare is undergoing a transition.  Care is more patient-specific and tailored to an individual’s needs.  When healthcare professionals fail to recognize, acknowledge, or respect important aspects of cultural norms then they have not provided the most patient-focused care that they can.</p>
+
+<h2 id="problem">Problem</h2>
+
+<p>Cultural awareness is not something that is intuitive to all healthcare professionals.  When cultural aspects of a patient’s life are shown to be of high importance, then it reflects the high level of compassion that our organization aims to provide.<br />
+<br />
+Providers will be more comfortable approaching situations where they are unsure about how to interact, thus improving their ability to provide care.<br />
+<br />
+The organization will be viewed positively by a wide range of cultural groups, small and large, and members of those groups will likely seek care at the said organization because of positive word of mouth reviews.</p>
+
+<h2 id="proposed-solution">Proposed Solution</h2>
+
+<p>An application that healthcare professionals can use to search for different cultural preferences/norms so they can meet the cultural needs of their client/patient. This will be a collection of information with different explanations, definitions, terms, and any other pertinent information that would enhance patient care.<br />
+<br />
+This app will improve the experiences of different cultural groups when they receive healthcare, but also serve as a teaching/learning tool that can help grow cultural awareness outside of healthcare.</p>
+
+<h2 id="software-requirements">Software Requirements</h2>
+
+<h3 id="functional-requirements">Functional Requirements</h3>
+<ul>
+  <li>The system must be able to show users a snapshot of and detailed information about a selected culture’s medical norms</li>
+  <li>The system must allow administrators to create and remove new cultural groups</li>
+  <li>The system must allow administrators to create, update and remove cultural norm information</li>
+  <li>The system must be able to allow users to download a selected culture’s medical norm information</li>
+  <li>The system must be usable offline</li>
+  <li>The system must be usable on the move</li>
+  <li>The user interface of the system must be able to clearly communicate with users cultural norm information</li>
+</ul>
+
+<h3 id="non-functional-requirements">Non Functional Requirements</h3>
+<h4 id="availability">Availability</h4>
+<ul>
+  <li>The application must be available round the clock, if there is downtime the application should be back up and running within ten minutes</li>
+</ul>
+
+<h4 id="performance">Performance</h4>
+<ul>
+  <li>The application must support many concurrent users: 50 requests per minute</li>
+  <li>The system should take no more than 5 seconds to load data after an API request</li>
+</ul>
+
+<h4 id="modifiabilityscalability">Modifiability/Scalability</h4>
+<ul>
+  <li>The application should remain responsive at 100 requests per minute. (performance guarantees do not apply at these rates)</li>
+  <li>A selected culture’s data should be easily modifiable by an administrator</li>
+</ul>
+
+<h4 id="security">Security</h4>
+<ul>
+  <li>All data should be archived and stored for at least one month</li>
+  <li>User/Admin data must be kept private</li>
+</ul>
+
+<h4 id="testability">Testability</h4>
+<ul>
+  <li>Components of the system should be tested with unit tests and integration tests where applicable to ensure components are functional and prevent regression</li>
+  <li>The system should be tested with end-to-end tests to verify the components work as a whole</li>
+</ul>
+
+<h4 id="usability">Usability</h4>
+<ul>
+  <li>Must support multiple platforms (latest iOS, latest Android OS, and modern web browsers)</li>
+  <li>User interface should be intuitive</li>
 </ul>
 
         
