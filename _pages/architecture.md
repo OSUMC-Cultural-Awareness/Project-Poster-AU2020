@@ -7,7 +7,7 @@ title: "System Architecture"
 
 ![API Architecture](../assets/API-Architecture.png)
 
-The following are the primary technologiwes used for the API service:
+The following are the primary technologies used for the API service:
 ### MongoDB
 [Mongodb](https://www.mongodb.com/) is a general purpose, document-based, NoSQL, distributed database built for modern application developers.  
 Utilizing a MongoDB Atlas free-tire cluster in our production environment.  
