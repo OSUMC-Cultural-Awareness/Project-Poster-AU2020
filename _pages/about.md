@@ -25,7 +25,17 @@ The following packages need to be installed on the dev machine:
 - [python 3.8](https://www.python.org/downloads/) 
 - [node](https://nodejs.org/en/download/)
 - [expo-cli](https://docs.expo.io/get-started/installation/)
+- [mongodb](https://docs.mongodb.com/guides/server/install/)  (optional)
 
 
 - [Instructions](https://github.com/OSUMC-Cultural-Awareness/api#getting-started) for setting up api service
 - [Instructions](https://github.com/OSUMC-Cultural-Awareness/app#getting-started) for setting up app service
+
+## Production Environment
+
+![Architecture Diagram](../assets/ArchitectureDiagram.png)
+
+### Interactions
+- Github Pages is serving the frontend React Native Application (web version) to users' devices at [https://osumc-cultural-awareness.github.io/app/](https://osumc-cultural-awareness.github.io/app/).  
+- The React Native App then makes API calls to the API server at [https://www.osumc-cultural-awareness.com/](https://www.osumc-cultural-awareness.com/health) that sits on an EC2 instance.  
+- The API server connects to and manages data on a MongoAtlas cloud cluster.
